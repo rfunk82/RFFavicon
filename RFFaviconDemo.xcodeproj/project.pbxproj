@@ -21,6 +21,7 @@
 		C74CCBCB184CDF5200D23667 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C74CCBAD184CDF5200D23667 /* UIKit.framework */; };
 		C74CCBD3184CDF5200D23667 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C74CCBD1184CDF5200D23667 /* InfoPlist.strings */; };
 		C74CCBD5184CDF5200D23667 /* RFFaviconDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C74CCBD4184CDF5200D23667 /* RFFaviconDemoTests.m */; };
+		C74CCBE0184CE1B800D23667 /* RFFavicon.m in Sources */ = {isa = PBXBuildFile; fileRef = C74CCBDF184CE1B800D23667 /* RFFavicon.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		C74CCBD0184CDF5200D23667 /* RFFaviconDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RFFaviconDemoTests-Info.plist"; sourceTree = "<group>"; };
 		C74CCBD2184CDF5200D23667 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C74CCBD4184CDF5200D23667 /* RFFaviconDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RFFaviconDemoTests.m; sourceTree = "<group>"; };
+		C74CCBDE184CE1B800D23667 /* RFFavicon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RFFavicon.h; path = RFFavicon/RFFavicon.h; sourceTree = "<group>"; };
+		C74CCBDF184CE1B800D23667 /* RFFavicon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RFFavicon.m; path = RFFavicon/RFFavicon.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				C74CCBBB184CDF5200D23667 /* Main.storyboard */,
 				C74CCBBE184CDF5200D23667 /* ViewController.h */,
 				C74CCBBF184CDF5200D23667 /* ViewController.m */,
+				C74CCBDE184CE1B800D23667 /* RFFavicon.h */,
+				C74CCBDF184CE1B800D23667 /* RFFavicon.m */,
 				C74CCBC1184CDF5200D23667 /* Images.xcassets */,
 				C74CCBB0184CDF5200D23667 /* Supporting Files */,
 			);
@@ -249,6 +254,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C74CCBE0184CE1B800D23667 /* RFFavicon.m in Sources */,
 				C74CCBC0184CDF5200D23667 /* ViewController.m in Sources */,
 				C74CCBBA184CDF5200D23667 /* AppDelegate.m in Sources */,
 				C74CCBB6184CDF5200D23667 /* main.m in Sources */,

@@ -7,8 +7,14 @@
 //
 
 #import "ViewController.h"
+#import "RFFavicon.h"
 
 @interface ViewController ()
+@property (strong, nonatomic) IBOutlet UITextField *websiteTextfield;
+@property (strong, nonatomic) IBOutlet UIImageView *icon;
+@property (weak, nonatomic) UIImage *iconImage;
+- (IBAction)goPressed:(id)sender;
+
 
 @end
 
@@ -26,4 +32,9 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)goPressed:(id)sender {
+    
+    //We call our getIcon method and we provide the website address.
+    self.icon.image = [RFFavicon getIcon:self.websiteTextfield.text];
+}
 @end
